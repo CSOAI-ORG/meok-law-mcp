@@ -1,0 +1,68 @@
+{
+  "name": "meok-law-mcp",
+  "description": "MEOK LAW MCP \u2014 region-aware AI governance on the real CSOAI crosswalks. Tools: applicable rules by",
+  "url": "https://proofof.ai/scorecard/meok-law-mcp.html",
+  "version": "1.1.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "law_overview",
+      "name": "Law Overview",
+      "description": "law_overview via meok-law-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "law_applicable",
+      "name": "Law Applicable",
+      "description": "law_applicable via meok-law-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "law_crosswalk",
+      "name": "Law Crosswalk",
+      "description": "law_crosswalk via meok-law-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "law_social_contract",
+      "name": "Law Social Contract",
+      "description": "law_social_contract via meok-law-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "law_register",
+      "name": "Law Register",
+      "description": "law_register via meok-law-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

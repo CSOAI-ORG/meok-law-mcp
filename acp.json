@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-law-mcp",
+    "description": "MEOK LAW MCP \u2014 region-aware AI governance on the real CSOAI crosswalks. Tools: applicable rules by",
+    "version": "1.1.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-law-mcp"
+      }
+    ],
+    "capabilities": [
+      "law_overview",
+      "law_applicable",
+      "law_crosswalk",
+      "law_social_contract",
+      "law_register"
+    ]
+  }
+}

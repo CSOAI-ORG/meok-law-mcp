@@ -1,0 +1,28 @@
+name: meok-law-mcp
+description: 'MEOK LAW MCP — region-aware AI governance on the real CSOAI crosswalks. Tools: applicable rules by'
+version: 1.1.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-law-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: law_overview
+  description: law overview
+- name: law_applicable
+  description: law applicable
+- name: law_crosswalk
+  description: law crosswalk
+- name: law_social_contract
+  description: law social contract
+- name: law_register
+  description: law register
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
