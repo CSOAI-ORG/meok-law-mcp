@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-law-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-law-mcp"
+      ]
+    }
+  }
+}
