@@ -17,14 +17,14 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries",
 ]
-dependencies = ["mcp>=1.0.0"]
+dependencies = ["mcp>=2.0.0"]
 
 [project.urls]
 Homepage = "https://meok.ai/law"
 Repository = "https://github.com/CSOAI-ORG/meok-law-mcp"
 
 [tool.hatch.build.targets.wheel]
-only-include = ["server.py", "law_core.py", "law_bundle.json"]
+only-include = ["server.py", "law_core.py", "law_bundle.json", "mcp2026_shim.py"]
 
 [project.scripts]
 meok_law_mcp = "server:main"
